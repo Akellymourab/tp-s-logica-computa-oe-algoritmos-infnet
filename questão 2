@@ -1,0 +1,14 @@
+idade = int(input(' quantos anos você têm?: '))
+if idade < 1:
+    print("tente novamente")
+elif idade < 16:
+    print ("você não pode votar.")
+elif idade < 18  :
+    print ("voto facultativo.")
+elif idade < 70:
+    print ("você é obrigado a votar.")
+elif idade >= 70:
+    print ("voto facultativo.")
+
+    
+print ("fim.")    
